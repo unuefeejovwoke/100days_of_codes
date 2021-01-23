@@ -1,0 +1,20 @@
+body {
+    background-color: cadetblue;
+}
+div, h1 {
+    background-color: brown;
+}
+.font {
+    background-color: greenyellow;
+    color: chartreuse;
+    border: 5px solid greenyellow;
+}
+#unique{
+    background-color: greenyellow;
+    color: chartreuse;
+    border: 5px solid greenyellow;
+}
+kbd{
+    border: 1px solid grey;
+    background-color: gainsboro;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form fields</title>
+</head>
+<body>
+    <form method="GET" action="div.html">
+        <div>
+            <label for="firstname">Firstname</label>
+            <input required="required" type="text" id="firstname" name="firstname">
+        </div>
+        <div>
+            <label for="checkbox_field">Checkbox</label>
+            <input required="required" type="checkbox" value="1" name="checkbox">
+        </div>
+        <div>
+            <label>Radio buttons</label>
+            <input required="required" type="radio" name="radio_test" value="1">1
+            <input required="required" type="radio" name="radio_test" value="2">2
+            <input required="required" type="radio" name="radio_test" value="3">3
+        </div>
+        <div>
+            <label for="">Date</label>
+            <input required="required" type="date" name="date">
+        </div>
+        <div>
+            email
+            <input required="required" type="email" name="email">
+        </div>
+        <div>
+            Hidden
+            <input required="required" type="hidden" name="hidden" value="is_hidden">
+        </div>
+        <div>
+            <label for="">Number</label>
+            <input required="required" type="number" name="number" step="0.5" max="50" min="0">
+        </div>
+        <div>
+            password
+            <input required="required" type="password" name="password" placeholder="Password">
+        </div>
+        <div>
+            URL
+            <input required="required" type="url" name="url" value="www.lazyprogrammerz.com">
+        </div>
+        <div>
+            file upload
+            <input required="required" type="file" name="file">
+        </div>
+        <div>
+            <input required="required" type="submit" value="submit">
+        </div>
+
+    </form>
+</body>
+</html>
