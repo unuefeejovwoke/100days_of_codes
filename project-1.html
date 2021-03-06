@@ -2,68 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Project 1</title>
 </head>
 <body>
+    
     <nav>
-        <h3>JUST LEARNING</h3>
-        <ul>
-            <li>
-                <a href="about.html">Home</a>
-            </li>
-            <li>
-                <a href="contact.html">About Us</a>
-            </li>
-            <li>
-                <a href="blog.html">Read Blog</a>
-            </li>
-        </ul>  
+        <a href="about.html">About</a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="blog.html">Read Blog</a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="subscribe.html">Subscribe</a>
     </nav>
-
     <main>
         <table border="1" width="100%">
             <tbody>
                 <tr>
                     <td>
-                        Blog
+                        <!--Article start-->
                         <article>
-                            <h4>Welcome</h4>
-                            <small>Feb 1,2021</small>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, 
-                                quod cumque placeat omnis culpa facilis. Labore numquam 
-                                eos voluptate quibusdam.</p>
-                                <p>
-                                    <a href="lists.html">Read more</a>
-                                </p>
+                            <h4>WELCOME TO HTML</h4>
+                            <small>March 6, 2021</small>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Esse et quae eius corrupti facilis voluptatem numquam
+                                 repellendus, modi quaerat dignissimos.</p>
+                            <p><a href="http://welcome.html">Read More</a></p>
+                            <hr>
                         </article>
+                        <!--Article end-->
+                        <!--Article start-->
+                        <article>
+                            <h4>WELCOME TO CSS</h4>
+                            <small>March 6, 2021</small>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Esse et quae eius corrupti facilis voluptatem numquam
+                                 repellendus, modi quaerat dignissimos.</p>
+                            <p><a href="http://welcome.html">Read More</a></p>
+                            
+                        </article>
+                        <!--Article end-->
                     </td>
-                    <td width="25%">
-                        Subscribe
+                    <td width="25%" valign="top">
+                        <h4></h4>
+                        <form action="" method="get">
+                            <div>
+                                <label for="firstname">First name</label><br>
+                                <input type="text" name="firstname" id="firstname" required="required" placeholder="Your name" class="firstname">
+                            </div>
+                            <br>
+                            <div>
+                                <label for="email">Email</label><br>
+                                <input type="email" name="email" required="required" id="email" placeholder="yourmail@gmail.com" class="email">
+                            </div>
+                            <br>
+                            <div>
+                                <button type="submit">subscribe</button>
+                            </div>
+                        </form>
                     </td>
                 </tr>
             </tbody>
-
         </table>
     </main>
-
-
     <footer>
-        <p>
-            &copy; just learning
-        </p>
-        <p>
-            <a href="http://">Facebook</a>
-            <a href="http://">Twitter</a>
-            <a href="http://">Whatsapp</a>
-
-        </p>
+        <p> &copy;project one 2021</p>
+        <p><a href="http://facebook">Facebook</a>
+            &nbsp;&nbsp;
+            <a href="http://twitter">Twitter</a></p>
+        
     </footer>
-    
+
+
 </body>
 </html>
-<!-- nav
-blog articles
-blog subrsibe
-footer-->
+<!--
+
+blog article
+blog subscribe
+-->
