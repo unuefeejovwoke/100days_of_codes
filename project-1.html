@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 1</title>
+    <link rel="stylesheet" href="1.css">
 </head>
 <body>
-    
     <nav>
+        <h2 class="logo">welcome</h2>
         <a href="about.html">About</a>
         &nbsp;&nbsp;&nbsp;
         <a href="blog.html">Read Blog</a>
@@ -16,7 +17,7 @@
         <a href="subscribe.html">Subscribe</a>
     </nav>
     <main>
-        <table border="1" width="100%">
+        <table width="100%">
             <tbody>
                 <tr>
                     <td>
@@ -24,6 +25,12 @@
                         <article>
                             <h4>WELCOME TO HTML</h4>
                             <small>March 6, 2021</small>
+                            <div>
+                                <video controls width="50%">
+                                    <source src="video.mp4" type="video/mp4">
+                                </video>
+
+                            </div>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                                 Esse et quae eius corrupti facilis voluptatem numquam
                                  repellendus, modi quaerat dignissimos.</p>
@@ -35,6 +42,9 @@
                         <article>
                             <h4>WELCOME TO CSS</h4>
                             <small>March 6, 2021</small>
+                            <div>
+                                <img src="SEU7TECH.png" alt="test image" title="testimsge" width="50%">
+                            </div>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                                 Esse et quae eius corrupti facilis voluptatem numquam
                                  repellendus, modi quaerat dignissimos.</p>
@@ -45,21 +55,25 @@
                     </td>
                     <td width="25%" valign="top">
                         <h4></h4>
-                        <form action="" method="get">
-                            <div>
-                                <label for="firstname">First name</label><br>
-                                <input type="text" name="firstname" id="firstname" required="required" placeholder="Your name" class="firstname">
-                            </div>
-                            <br>
-                            <div>
-                                <label for="email">Email</label><br>
-                                <input type="email" name="email" required="required" id="email" placeholder="yourmail@gmail.com" class="email">
-                            </div>
-                            <br>
-                            <div>
-                                <button type="submit">subscribe</button>
-                            </div>
-                        </form>
+                        <aside>
+                            <form action="" method="get">
+                                <div>
+                                    <label for="firstname">First name</label><br>
+                                    <input type="text" name="firstname" id="firstname" required="required" placeholder="Your name" class="firstname">
+                                </div>
+                                <br>
+                                <div>
+                                    <label for="email">Email</label><br>
+                                    <input type="email" name="email" required="required" id="email" placeholder="yourmail@gmail.com" class="email">
+                                </div>
+                                <br>
+                                <div>
+                                    <button type="submit">subscribe</button>
+                                </div>
+                            </form>
+
+                        </aside>
+                        
                     </td>
                 </tr>
             </tbody>
