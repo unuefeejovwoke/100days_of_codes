@@ -1,0 +1,21 @@
+#bg{
+    background-image: url('../freelancestudent.png');
+    height: 500px;
+    border: 1px solid wheat;
+}
+body{
+    background-image: url('../freelancestudent.png');
+    color: burlywood;
+}
+div.test h3{
+    background-color: burlywood;
+    color: crimson;
+}
+div.test h3{
+    margin-top: 0;
+}
+h2{
+    background-color: darkgray;
+    color: rgb(16, 82, 16);
+    margin: 0;
+}
