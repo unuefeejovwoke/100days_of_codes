@@ -1,0 +1,21 @@
+body{
+    background-color: burlywood;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #e3ebeb;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: darksalmon;
+    display: block;
+    cursor: pointer;
+}
+p.left{text-align: left;}
+p.center{text-align: center;}
+p.right{text-align: right;}
+p.justified{
+    text-align: justify;
+}

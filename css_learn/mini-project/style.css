@@ -1,0 +1,64 @@
+body{
+    background-color: burlywood;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #e3ebeb;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: darksalmon;
+    display: block;
+    cursor: pointer;
+}
+label, input, textarea, button{
+    display: block;
+}
+i{
+    color: cornsilk;
+    text-align: right;
+}
+form{
+    margin: 0 auto;
+    width: 50%;
+    padding: 30px;
+    background-color: darksalmon;
+    border: 1px solid rgb(233, 179, 108);
+}
+label{
+    margin-bottom: 4px;
+    margin-top: 15px;
+    color: cornsilk;
+}
+
+input{
+    margin-bottom: 4px;
+    width: 100%;
+    border: 1px solid burlywood;
+    padding: 5px;
+    color: rgb(245, 146, 17);
+}
+
+textarea{
+    margin-bottom: 12px;
+    width: 100%;
+    border: 1px solid burlywood;
+    padding: 5px;
+}
+
+button{
+    border: 1px solid burlywood;
+    background-color: cornsilk;
+    padding: 10px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+button:hover{
+    border: 1px solid rgb(70, 67, 64);
+    border-radius: 10%;
+    background-color: rgb(218, 183, 45);
+    padding: 7px;
+    margin: 0 auto;
+}

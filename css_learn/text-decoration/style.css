@@ -1,0 +1,28 @@
+body{
+    background-color: burlywood;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #e3ebeb;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: darksalmon;
+    display: block;
+    cursor: pointer;
+}
+.strike{
+    text-decoration: line-through;
+    text-decoration-color: crimson;
+    color: cornsilk;
+}
+a{
+    color: #e3ebeb;
+    text-decoration: none;
+    text-align: right;
+}
+.c{
+    text-align: center;
+}

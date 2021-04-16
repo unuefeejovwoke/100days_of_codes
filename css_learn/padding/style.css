@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    border: 1px solid gray;
+    background-color: honeydew;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+#padding-test{
+    border: 1px solid blue;
+    padding: 5px;
+}
+
