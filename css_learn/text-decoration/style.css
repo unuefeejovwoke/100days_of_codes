@@ -26,3 +26,12 @@ a{
 .c{
     text-align: center;
 }
+.para{
+    text-transform: initial;
+}
+.text-test{
+    text-indent: 20px;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 2;
+}
